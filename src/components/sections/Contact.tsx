@@ -6,6 +6,7 @@ import {
 import { FaWhatsapp } from "react-icons/fa";
 import Container from "../ui/Container";
 import { SITE } from "../../config/site";
+import MapLocation from "../common/MapLocation";
 
 export default function Contact() {
     return (
@@ -155,7 +156,9 @@ export default function Contact() {
                                 {SITE.timings.hours}
                             </p>
                         </div>
-                    </div>    </div>
+                    </div>
+                </div>
+                <MapLocation />
             </Container>
         </section>
     );

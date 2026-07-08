@@ -11,7 +11,7 @@ export const SITE = {
         },
     ],
     email: "kinderbloomot@gmail.com",
-    address: "1st Floor, SCO-1, Trishala Rd, Peer Muchalla, Zirakpur",
+    address: "1st floor, sco-1, Trishala road, Peer Muchalla, Sanauli, Zirakpur, Punjab - 160104",
     timings: {
         days: "Monday – Saturday",
         hours: "9:00 AM – 8:00 PM",
