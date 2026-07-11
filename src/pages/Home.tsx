@@ -8,6 +8,7 @@ import FAQ from "../components/sections/FAQ";
 import Footer from "../components/layout/Footer";
 import SEO from "../components/common/SEO";
 import FloatingWhatsapp from "../components/common/FloatingWhatsapp";
+import AboutTherapist from "../components/sections/AboutTherapist";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <About />
+      <AboutTherapist />
       <Services />
       <WhyChoose />
       <Contact />
