@@ -5,7 +5,7 @@ import {
     FiUsers,
   } from "react-icons/fi";
   import Container from "../ui/Container";
-  import Therapist from "../../assets/Therapist.jpeg";
+  import therapist from "../../assets/therapist.jpeg";
   
   const expertise = [
     "Autism Spectrum Disorder (ASD)",
@@ -41,7 +41,7 @@ import {
               <div className="mt-8 flex justify-center lg:hidden">
                 <div className="overflow-hidden rounded-[32px] bg-white shadow-2xl">
                   <img
-                    src={Therapist}
+                    src={therapist}
                     alt="Dr. Kunal Mahajan"
                     className="w-full max-w-xs object-cover"
                   />
@@ -149,7 +149,7 @@ import {
             <div className="hidden lg:flex justify-end">
               <div className="sticky top-28 overflow-hidden rounded-[36px] bg-white shadow-2xl">
                 <img
-                  src={Therapist}
+                  src={therapist}
                   alt="Dr. Kunal Mahajan"
                   className="w-full max-w-md object-cover"
                 />
